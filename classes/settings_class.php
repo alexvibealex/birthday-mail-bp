@@ -263,5 +263,6 @@ class birthday_mail_settings{
 
 add_action('admin_menu','init_bp_birthday_mail_settings',100);
 function init_bp_birthday_mail_settings(){
+	if(function_exists('bp_core_get_user_displayname'))
 	new birthday_mail_settings;	
 }

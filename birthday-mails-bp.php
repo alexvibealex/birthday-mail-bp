@@ -11,17 +11,17 @@ License: GPL2
 /*
 Copyright 2014  VibeThemes  (email : vibethemes@gmail.com)
 
-wplms_customizer program is free software; you can redistribute it and/or modify
+Birthday mails bp program is free software; you can redistribute it and/or modify
 it under the terms of the GNU General Public License, version 2, as 
 published by the Free Software Foundation.
 
-wplms_customizer program is distributed in the hope that it will be useful,
+Birthday mails bp program is distributed in the hope that it will be useful,
 but WITHOUT ANY WARRANTY; without even the implied warranty of
 MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 GNU General Public License for more details.
 
 You should have received a copy of the GNU General Public License
-along with wplms_customizer program; if not, write to the Free Software
+along with Birthday mails bp program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
@@ -38,7 +38,7 @@ function init_my_plugin(){
     if(class_exists('Bmbp_Class')){ 
    
         // instantiate the plugin class
-        $wplms_customizer = new Bmbp_Class();
+        $bmbp_obj = new Bmbp_Class();
     }
   } 
 }
